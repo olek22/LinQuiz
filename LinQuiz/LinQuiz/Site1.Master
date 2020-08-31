@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LinQuiz.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <%--Bootstrap CSS--%>
+    <link href="Libraries/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <%--Bootswatch CSS--%>
+    <link href="Libraries/Bootswatch/bootstrap.min.css" rel="stylesheet" />
+    <%--FontAwesome CSS--%>
+    <link href="Libraries/FontAwesome/css/all.css" rel="stylesheet" />
+    <%--DataTables CSS--%>
+    <link href="Libraries/DataTablesBS4/datatables.min.css" rel="stylesheet" />
+
+    <%--jQuery JS--%>
+    <script src="Libraries/Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <%--Popper JS--%>
+    <script src="Libraries/Bootstrap/js/popper.min.js"></script>
+    <%--Bootstrap JS--%>
+    <script src="Libraries/Bootstrap/js/bootstrap.min.js"></script>
+    <%--FontAwesome JS--%>
+    <script src="Libraries/FontAwesome/js/all.js"></script>
+    <%--DataTables JS--%>
+    <script src="Libraries/DataTablesBS4/datatables.min.js"></script>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="Default.aspx">
+                        <%--<i class="fas fa-language"></i>--%>
+                        LinQuiz
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <%--<a class="nav-link" href="Default.aspx">Strona główna</a>--%>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item active" id="rozpocznij" runat="server">
+                                <a class="nav-link" href="StartQuiz.aspx"><i class="fas fa-play"></i>&nbsp;Rozpocznij Quiz</a>
+                            </li>
+                            <li class="nav-item active" id="ranking" runat="server">
+                                <a class="nav-link" href="Ranking.aspx"><i class="fas fa-list-ol"></i>&nbsp;Ranking</a>
+                            </li>
+                            <li class="nav-item active" id="admin" runat="server">
+                                <a class="nav-link" href="AdminPanel.aspx"><i class="fas fa-key"></i>&nbsp;Panel administratora</a>
+                            </li>
+                            <li class="nav-item active" id="profil" runat="server">
+                                <a class="nav-link" href="UserProfile.aspx"><i class="fas fa-user"></i>&nbsp;Profil</a>
+                            </li>
+                            <li class="nav-item active" id="zaloguj" runat="server">
+                                <a class="nav-link" href="login.aspx"><i class="fas fa-door-open"></i>&nbsp;Zaloguj</a>
+                            </li>
+                            <li class="nav-item active" id="wyloguj" runat="server">
+                                <asp:LinkButton ID="LinkButton1" runat="server" CssClass="nav-link" OnClick="LinkButton1_Click"><i class="fas fa-door-open"></i>&nbsp;Wyloguj</asp:LinkButton>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <footer>
+                <div id="footer" class="container-fluid">
+                    <div class="row">
+                        <div class="col text-center" style="padding: 2em">
+                            <p>&copy LinQuiz Team</p>
+                            <%-- <div id="MenuStyle" runat="server" style="width: 650px; margin: 0 auto 0 auto;">
+                                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+                                <asp:Menu class="menu" ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal">
+                                </asp:Menu>
+                            </div>--%>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
