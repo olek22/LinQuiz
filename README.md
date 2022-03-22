@@ -1,25 +1,34 @@
 # :mortar_board: LinQuiz :mortar_board:
 
-## Project description
+## Short project description
 
-LinQuiz is an interactive web application that streamlines the process of teaching English. Through the user-friendly interface you will be able to learn many new and interesting words, which have been divided into all kinds of categories and difficulty levels. Application has user and administration panel. 
+Web application about the best Italian soccer club. 
 
 ## Technology
 
 - ASP.NET + AJAX Extesions
-- MS SQL Server
+- MS SQL Server (application based on the created database in MS SQL Server)
 - Bootstrap
 - jQuery
 
 ## Feauters
 
-### User:
--
+User can:
+- check all users ranking
+- satrt quiz (user have to translate word to polish)
+- change password
+- send notification concerns word in quiz
 
-### Administrator:
--
+Administrator can:
+- manage words in quiz
+- manage categories in quiz
+- manage difficult levels in quiz
+- manage definitions in quiz
+- manage notifications from users
 
 ## Usage
+
+
 
 ## License & copyright
 
