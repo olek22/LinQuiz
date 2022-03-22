@@ -13,10 +13,10 @@ LinQuiz is an interactive web application that streamlines the process of teachi
 
 ## Feauters
 
-User:
+### User:
 -
 
-Administrator:
+### Administrator:
 -
 
 ## Usage
