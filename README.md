@@ -21,3 +21,11 @@ LinQuiz is an interactive web application that streamlines the process of teachi
 
 ## Usage
 
+## License & copyright
+
+Copyright (c) 2020 Mateusz Boczarski, Jan Gąska, Aleksander Gola
+
+Licensed under the [MIT License](LICENSE).
+
+
+
