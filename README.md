@@ -2,7 +2,7 @@
 
 ## Short project description
 
-Web application about the best Italian soccer club. 
+LinQuiz is an interactive web application that streamlines the process of teaching English. Through the user-friendly interface you will be able to learn many new and interesting words, which have been divided into all kinds of categories and difficulty levels. Application has user and administration panel.
 
 ## Technology
 
@@ -15,7 +15,7 @@ Web application about the best Italian soccer club.
 
 User can:
 - check all users ranking
-- satrt quiz (user have to translate word to polish)
+- satrt quiz (user have to translate words to polish)
 - change password
 - send notification concerns word in quiz
 
@@ -26,7 +26,7 @@ Administrator can:
 - manage definitions in quiz
 - manage notifications from users
 
-## Usage
+## Demo
 
 
 
