@@ -28,6 +28,7 @@ Administrator can:
 
 ## Demo
 
+![2022-03-27 16-05-09](https://user-images.githubusercontent.com/56295726/160286282-015b06de-bddb-4100-abd4-398943d27108.gif)
 
 
 ## License & copyright
